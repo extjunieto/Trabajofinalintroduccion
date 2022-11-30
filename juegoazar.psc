@@ -12,6 +12,7 @@ Algoritmo juegoazar
 		// Se agrego la opcion de elegir cara o sello
 		Escribir 'Usuario elige CARA como C y SELLO con S'
 		Leer cs
+		// Se agrego la opcion de elegir si deseas tirar la moneda o no
 		Escribir "¿Deseas tirar la moneda? Y/N";
 		Leer tirada;
 		moneda = azar(2)+1;
