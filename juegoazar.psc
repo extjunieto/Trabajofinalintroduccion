@@ -39,6 +39,7 @@ Algoritmo juegoazar
 		Leer tirada
 	Hasta Que tirada = "N";
 	Si tirada2 = cs Entonces
+		// Se agrega el comentario que dice cuanto ganaste o si perdiste todo
 			Escribir "Felicidades ganaste ", ap;
 		SiNo
 			Escribir "Lo sentimos perdiste todo";
