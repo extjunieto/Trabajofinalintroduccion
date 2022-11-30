@@ -1,4 +1,5 @@
 Algoritmo juegoazar
+	// Rama developer
 	// Integrantes: Juan Sebastian Nieto Diaz
 	Definir tirada, tirada2 Como Caracter;
 	Definir moneda Como Entero;
