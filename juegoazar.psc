@@ -32,6 +32,7 @@ Algoritmo juegoazar
 		// Se agrego la opcion del valor a apostar en la nueva tirada
 		Escribir 'Por favor indica el valor unico a apostar en cada tirada'
 		Leer ap
+		// Se agrega la opcion de repetir la eleccion de cara o sello
 		Escribir 'Usuario elige CARA como C y SELLO con S'
 		Leer cs
 		Escribir "¿Deseas tirar la moneda? Y/N";
