@@ -5,7 +5,7 @@ Algoritmo juegoazar
 	Definir moneda Como Entero;
 	Definir acumulado Como Entero
 	Escribir 'Bienvenido al juego de la moneda'
-	
+	// Se agrego la generacion del valor de la apuesta
 	Repetir
 		Escribir 'Por favor indica el valor unico a apostar en cada tirada'
 		Leer ap
