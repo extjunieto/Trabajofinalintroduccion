@@ -24,10 +24,12 @@ Algoritmo juegoazar
 		Escribir "La moneda cayo en: " , tirada2;
 		Si tirada2 = cs Entonces
 			ap = ap+ap
+			// Se agrego la opcion que dice si ganas o pierdes
 			Escribir "Ganaste ", ap;
 		SiNo
 			Escribir "Perdiste ", ap;
 		FinSi
+		// Se agrego la opcion del valor a apostar en la nueva tirada
 		Escribir 'Por favor indica el valor unico a apostar en cada tirada'
 		Leer ap
 		Escribir 'Usuario elige CARA como C y SELLO con S'
