@@ -9,8 +9,10 @@ Algoritmo juegoazar
 	Repetir
 		Escribir 'Por favor indica el valor unico a apostar en cada tirada'
 		Leer ap
+		// Se agrego la opcion de elegir cara o sello
 		Escribir 'Usuario elige CARA como C y SELLO con S'
 		Leer cs
+		// Se agrego la opcion de elegir si deseas tirar la moneda o no
 		Escribir "¿Deseas tirar la moneda? Y/N";
 		Leer tirada;
 		moneda = azar(2)+1;
@@ -22,6 +24,7 @@ Algoritmo juegoazar
 		Escribir "La moneda cayo en: " , tirada2;
 		Si tirada2 = cs Entonces
 			ap = ap+ap
+			// Se agrego la opcion que dice si ganas o pierdes
 			Escribir "Ganaste ", ap;
 		SiNo
 			Escribir "Perdiste ", ap;
